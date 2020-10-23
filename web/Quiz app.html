@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link href="./Quiz app.css" rel="stylesheet">
+</head>
+
+<body class="container centerFx">
+    <div id="game" class="container quiz centerFx col">
+        <div id="point">
+            Điểm:0
+        </div>
+        <div class="question container centerFx" id="question" style="background-color: aqua">
+            <div> this is somequestion</div>
+        </div>
+        <div class="choices centerFx container col gap">
+            <div class="row container gap centerFx">
+                <div class="choice container">
+                    <div class="alphabet container centerFx">
+                        <p>A</p>
+                    </div>
+                    <div class="content container centerFx" id="choiceA">
+                        some choice content
+                    </div>
+                </div>
+                <div class="choice container">
+                    <div class="alphabet container centerFx">
+                        <p>B</p>
+                    </div>
+                    <div class="content container centerFx" id="choiceB">
+                        some choice content
+                    </div>
+                </div>
+            </div>
+            <div class="row container gap centerFx">
+                <div class="choice container">
+                    <div class="alphabet container centerFx">
+                        <p>C</p>
+                    </div>
+                    <div class="content container centerFx" id="choiceC">
+                        some choice content
+                    </div>
+                </div>
+                <div class="choice container">
+                    <div class="alphabet container centerFx">
+                        <p>D</p>
+                    </div>
+                    <div class="content container centerFx" id="choiceD">
+                        some choice content
+                    </div>
+                </div>
+            </div>
+            <div class="row container centerFx next hide" id="next">
+                <button>NEXT QUESTION</button>
+            </div>
+        </div>
+    </div>
+    <script src="./Quiz app.js"></script>
+</body>
+
+</html>
